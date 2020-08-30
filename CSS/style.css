@@ -116,13 +116,14 @@
     height: auto;
 }
 
-
 body {
     color: black !important;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
     margin: 0 !important;
     background:white;
+    /* box-sizing: border-box; */
     /* margin-left: 1%; */
   }
   
@@ -532,6 +533,10 @@ i {
         place-items: center;
     }
 
+    .comtainer{
+        font-size: 12px !important;
+    }
+
     body{
         overflow-x:hidden !important;
     }
@@ -541,10 +546,31 @@ i {
     }
     .heading{
         display: block;
+        font-size: 18px !important;
     }
+    h2 , li , h3{ 
+        font-size: 20px !important;
+    }
+
+    h1{
+        font-size: 22px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+    li{
+        font-size: 12px !important;
+    }
+
+
+
+
+
     .whyUs,  .donateEye, .slide, .footer{
         
-        margin-left: 10% !important;
+        /* margin-left: 10% !important; */
         width: auto;
         border-radius: 10px;
         margin: auto;
@@ -566,9 +592,18 @@ i {
         margin: 0;
         margin-bottom: 5vh;
     }
+    
+
+    .services{
+        width: 200px !important;
+    }
   }
 
   @media (max-width: 1023px) {
+
+    .services{
+        width: 200px !important;
+    }
 
     .navbar{
         display: none;
