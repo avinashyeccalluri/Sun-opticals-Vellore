@@ -161,7 +161,7 @@ body {
   nav ul {
     list-style: none;
     /* text-align: center; */
-    /* width: 150%; */
+    width: 150%;
     justify-items: center;
   }
   nav ul li {
