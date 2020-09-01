@@ -906,7 +906,7 @@ Late */
 .whyUsFlex{
   display: flex;
   /* justify-items: flex-end; */
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -945,6 +945,44 @@ Late */
 .aboutUs{
   line-height: 1.6%;
 }
+
+body{
+  background: rgb(226, 226, 226);
+}
+
+.whyUsFlex {
+  padding: 20px 0;
+}
+
+.donateEyeFlex{
+  padding: 50px 0;
+}
+
+.ourServices{
+  margin: 20px 0;
+}
+
+
+
+/* ================================================================================= */
+
+@keyframes whyuskey{
+    0%{
+        transform: translateX(-25%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(xx) translateX(0);
+        opacity: 1;
+        }
+}
+
+.whyUsContent{
+    animation: whyuskey 0.2s forwards 0s linear;
+}
+
+
+
 
 
 
