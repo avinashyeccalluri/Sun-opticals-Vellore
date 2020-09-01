@@ -159,6 +159,9 @@ body {
   .innerDivs{
       display: none;
   }
+  .nav-wrapper{
+    display: block;
+  }
   nav ul {
     list-style: none;
     /* text-align: center; */
@@ -616,6 +619,14 @@ i {
 
     .navbar{
         display: none;
+    }
+
+    .nav-wrapper{
+      display: block;
+    }
+
+    .socialMediaIcons{
+      display: block;
     }
     
     /* ul .booking-card{
