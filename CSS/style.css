@@ -53,7 +53,9 @@
   transform: scale(1);
 }
 
-
+.whyusFlex{
+  display: flex;
+}
 .social-btns {
   height: 50px;
   /* margin: auto; */
@@ -356,13 +358,14 @@ ul .booking-card .book-container .content .btn:hover {
 }
 ul .booking-card .informations-container {
     flex: 1 0 auto;
-    padding: 20px;
+    padding: 15px;
     background: #f0f0f0;
     transform: translateY(206px);
     transition: 0.3s;
 }
 ul .booking-card .informations-container .title {
     position: relative;
+    top:20px;
     padding-bottom: 10px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -434,7 +437,7 @@ ul .booking-card:hover .informations-container .more-information {
 ul{
   list-style: none;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     ul .booking-card::before {
         background: rgba(10, 72, 112, 0.6);
    }
@@ -448,7 +451,7 @@ ul{
     ul .booking-card .informations-container .more-information {
         opacity: 1;
    }
-} */
+}
 .credits {
     display: table;
     background: #0a4870;
@@ -534,9 +537,18 @@ i {
 
 .donateImage , .whyUsImage{
     place-content: center !important;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 768px) {
+  
+  .whyUsFlex , .donateEyeFlex{
+    flex-direction: column;
+  }
+  .c1 , .c2{
+      height: 90vh;
+  }
   .nav-wrapper{
     display: block !important;
   }
@@ -883,6 +895,53 @@ a:hover{
   margin-top: 0;
 }
 
+
+
+/* ===========================================================================
+Late */
+
+.whyUsFlex{
+  display: flex;
+  /* justify-items: flex-end; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.whyUsContent{
+  text-align: left;
+  padding: 15px;
+}
+
+.highlight{
+  color: #5b78c7;
+}
+
+.donateEyeFlex{
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+}
+
+
+.whyUsImage{
+  object-fit: contain;
+  display: grid;
+  place-items: center;
+}
+
+
+.footer{
+  background: rgb(39, 38, 38);
+  height: 45vh;
+}
+
+.white{
+  color: white;
+}
+
+.aboutUs{
+  line-height: 1.6%;
+}
 
 
 
