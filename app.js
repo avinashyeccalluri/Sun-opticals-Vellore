@@ -1,5 +1,6 @@
-var mainNav = document.getElementById('main-nav');
-document.addEventListener('click', function(event) {
-  if (!event.target.matches('.nav-menu')) return;
-  mainNav.classList.toggle('nav-open');
-});
+let navWrapper = document.querySelector('.nav-wrapper'),
+navToogler =  document.querySelector('.nav-toogler')
+
+navToogler.addEventListener('click', function (event) {
+navWrapper.classList.toggle('active')
+})
